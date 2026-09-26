@@ -10,9 +10,9 @@ for i in range(1, 51): # laço de repetição que vai de 1 a 51, ou seja, 50 vez
     idade = input("Digite sua idade: ") # captura idade digitado e guarda na variavel idade
     opiniao = input("Digite sua opiniao: 1-EXCELENTE 2-BOM 3-RUIM: ") # captura opiniao digitado e guarda na variavel opiniao
     if opiniao == "1": #se opiniao for igual a 1 tipo texto, por isso está entre "aspas", entao executa linha abaixo
-        excelente = excelente + 1 #calcula excelente  = execelente + 1
+        excelente = excelente + 1 #excelente recebe execelente + 1
     elif opiniao == "3": # se opiniao for igual a 3, entao executa linha abaixo
-        ruim = ruim + 1 #calcula ruim = ruim + 1
+        ruim = ruim + 1 #ruim recebe ruim + 1
     else: #senao, se opiniao for diferente de 1 e 3, entao executa linha abaixo
          print("Digite uma opiniao valida") #imprime na tela a mensagem "Digite uma opiniao valida"
 #saidas
