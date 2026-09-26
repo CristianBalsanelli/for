@@ -5,7 +5,7 @@
 #processamento de dados
 excelente = 0 # excelente recebe 0
 ruim = 0 # ruim recebe 0
-for i in range(1, 11): # laço de repetição que vai de 0 a 4, ou seja, 5 vezes
+for i in range(1, 51): # laço de repetição que vai de 1 a 51, ou seja, 50 vezes
     nome = input("Digite seu nome: ") # captura nome digitado e guarda na variavel nome
     idade = input("Digite sua idade: ") # captura idade digitado e guarda na variavel idade
     opiniao = input("Digite sua opiniao: 1-EXCELENTE 2-BOM 3-RUIM: ") # captura opiniao digitado e guarda na variavel opiniao
